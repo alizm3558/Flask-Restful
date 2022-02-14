@@ -18,7 +18,7 @@ class DataHelpers:
         self.mycursor.execute("select * from UETDS_ESYA_UN_KODLARI")
 
         myresult = self.mycursor.fetchall()
-        print(myresult)
+
         data=[]
         temp_data={}
         for x in myresult:
