@@ -15,7 +15,7 @@ class DataHelpers:
 
 
     def all_select(self):
-        self.mycursor.execute("select * from UETDS_ESYA_UN_KODLARI")
+        self.mycursor.execute("SELECT * FROM UETDS_ESYA_UN_KODLARI")
 
         myresult = self.mycursor.fetchall()
 
